@@ -26,6 +26,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
   p:last-child {
     margin-bottom: 0;
+    margin-left: 350px;
   }
   h1,
   h2,
@@ -35,6 +36,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     color: #4aaaa5;
   }
   h1 {
+    text-align: center;
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
@@ -114,6 +116,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     padding: 30px;
     margin: 0 0 40px;
     
+    
+    
   }
   /* portfolio page */
   .work {
@@ -144,7 +148,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     background: #4aaaa5;
     border-bottom: 0;
   }
-  .auth-image {
+  .LI-profile-badge{
     float: left;
     width: 200px;
     height: auto;
@@ -171,7 +175,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
-    border: 1px solid #dddddd;
+    border: 1px solid black;
+    background-color: black
   }
   textarea {
     height: 200px;
@@ -179,10 +184,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
-    color: #ffffff;
+    color: gray;
     cursor: pointer;
-    background: #4aaaa5;
+    background: black;
     border: 0 none;
+    
   }
   Collapse
   
